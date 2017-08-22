@@ -1,0 +1,16 @@
+<div ng-show="notLoaded" class="center bar bar-subheader">
+  <h1 class="title">טוען מסמך...</h1>
+</div>
+<ion-scroll overflow-scroll="false" scrollbar-x="false" zooming="true" min-zoom="1" max-zoom="2" direction="xy" class="has-header">
+  <canvas class="padding" id="pdf" class="rotate0"></canvas>
+</ion-scroll>
+<div class="tabs tabs-icon-left">
+  <a ng-hide="pageToDisplay >= pageCount" class="tab-item" ng-click="goNext()">
+    <i class="icon ion-arrow-left-c"></i> הבא
+  </a>
+  <a ng-hide="pageToDisplay === 1" class="tab-item" ng-click="goPrevious()">
+        אחורה
+        <i class="icon ion-arrow-right-c"></i>
+    </a>
+</div>
+<div>
