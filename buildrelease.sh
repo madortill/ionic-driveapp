@@ -1,8 +1,8 @@
 #!/bin/bash
 APK_PATH="./platforms/android/build/outputs/apk/"
 APK_UNSIGNED_NAME="android-release-unsigned.apk"
-KEYSTORE_PATH="../../../AndroidKeystores/driveapp.keystore"
-FINISHED_APK_PATH="../../../Production/driveapp.apk"
+KEYSTORE_PATH="E:/Code/AndroidKeystores/driveapp.keystore"
+FINISHED_APK_PATH="E:/Code/Production/driveapp.apk"
 
 echo -e "Enter alias: \c"
 read android_alias
