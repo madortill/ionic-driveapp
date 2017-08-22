@@ -1,6 +1,6 @@
 #!/bin/bash
 APK_PATH="./platforms/android/build/outputs/apk/"
-APK_UNSIGNED_NAME="android-armv7-release-unsigned.apk"
+APK_UNSIGNED_NAME="android-release-unsigned.apk"
 KEYSTORE_PATH="../../../AndroidKeystores/driveapp.keystore"
 FINISHED_APK_PATH="../../../Production/driveapp.apk"
 
