@@ -1,12 +1,12 @@
 #!/bin/bash
 APK_PATH="./platforms/android/build/outputs/apk/"
-APK_UNSIGNED_NAME="android-armv7-release-unsigned.apk"
+APK_UNSIGNED_NAME="android-release-unsigned.apk"
 KEYSTORE_PATH="../../../AndroidKeystores/driveapp.keystore"
 FINISHED_APK_PATH="../../../Production/driveapp.apk"
 
 echo -e "Enter alias: \c"
 read android_alias
-cordova build --release
+ionic cordova build android --release
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $KEYSTORE_PATH $APK_PATH$APK_UNSIGNED_NAME $android_alias
 rm $FINISHED_APK_PATH
 zipalign.exe -v 4 $APK_PATH$APK_UNSIGNED_NAME $FINISHED_APK_PATH
