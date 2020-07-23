@@ -6,7 +6,7 @@
   <ion-content class="search-result">
     <a ng-repeat="result in results" ng-show="results.length" ng-click="goToResult(result)" class="link-regulation">
             {{result.name}}
-            <span ng-show="result.subTitle.length" class="search-subtitle">נמצאה תת כותרת: {{result.subTitle}}</span>
+            <span ng-show="result.subTitle.length" class="search-subtitle">נמצאה תת כותרת : {{result.subTitle}}</span>
     </a>
     <span class="search-failed" ng-show="!results.length">לא נמצאו תוצאות לחיפוש</span>
   </ion-content>
