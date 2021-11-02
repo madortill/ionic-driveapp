@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.till.drivingAppnew" version="1.1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>הוראות בטיחות בנהיגה</name>
+    <description>
+    אפליקצית הוראות בטיחות בנהיגה.
+  </description>
+    <author>
+    Noy Elyasi &amp; Shay Novik
+  </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="resources/ios/icon/icon-small@3x.png" />
+    <allow-navigation href="http://192.168.1.173:8100" />
+    <preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="29" />
+    <preference name="android-targetSdkVersion" value="30" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>

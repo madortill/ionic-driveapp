@@ -2,9 +2,9 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
-platforms/
+#platforms/
 plugins/
-platforms/*
-!platforms/browser/
-!platforms/browser/www
-!platforms/browser/www/plugins
+#platforms/*
+#!platforms/browser/
+#!platforms/browser/www
+#!platforms/browser/www/plugins

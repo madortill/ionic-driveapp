@@ -1,0 +1,216 @@
+label {
+  height: 55px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 15pt;
+}
+
+.button-icon {
+  border-color: transparent;
+  background: none;
+}
+
+
+/* Header bar color */
+
+.bar.bar-darkblue {
+  background-color: #518ebf;
+  color: #1c2e3a;
+}
+
+.bar.bar-darkblue .title {
+  color: #1c2e3a;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bar.bar-light {
+  border: 0;
+  background: none !important;
+}
+
+.till {
+  height: 2em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+
+/*--------------------home screen----------------------*/
+
+.home {
+  background-color: #ffffe0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .home {
+    padding: 1em 2em;
+  }
+
+}
+
+
+.credit {
+  text-align: center;
+  float: right;
+  width: 10vmin;
+  height: 10vmin;
+  font-size: 3vmin;
+  border-color: #1c2e3a;
+  background-color: #1c2e3a;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.till-logo {
+  float: left;
+  width: 12vmin;
+  height: 12vmin;
+}
+
+.logo-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+.logo {
+  height: 10em;
+}
+/* Tablets */
+
+@media (min-width: 410px) {
+  .logo {
+    height: 13em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .logo {
+    height: 15em;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    height: 20em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .logo {
+    height: 25em;
+  }
+}
+
+
+.till-logo-about {
+  width: 48px;
+  height: 48px;
+  margin-top: 10px;
+}
+
+.home-search {
+  width: 100%;
+  margin-top: 1em;
+  background-color: #ffffe0;
+  border-color: #ffffe0;
+  text-align: right;
+  direction: rtl;
+
+}
+
+.home-search button {
+  margin-right: 5px;
+}
+
+.home-search label {
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+.home-search input {
+  font-size: 1.2em;
+}
+
+.home-button {
+  background-color: #1c2e3a;
+  float: left;
+  color: #fff;
+  width: 10%;
+  height: auto;
+}
+
+
+/*--------------------credit screen----------------------*/
+
+.credit-content {
+  background-color: #ffffe0;
+  padding-top: 20px;
+  line-height: 150%;
+}
+
+.credit-state {
+  padding: 30px;
+  text-align: right;
+}
+
+.credit-text {
+  padding: 10px;
+  font-size: 20pt;
+}
+
+.title {
+  font-size: 30pt;
+}
+
+
+/*--------------------search screen----------------------*/
+
+.label-search {
+  margin-top: 50px;
+  width: 100%;
+  color: #1c2e3a;
+}
+
+#btn {
+  height: 100%;
+  background-color: #1c2e3a;
+}
+
+.search-result {
+  margin-top: 70px;
+  text-align: right;
+}
+
+.search-subtitle {
+  padding-top: 5px;
+  display: block;
+  font-size: 12pt;
+  color: #000;
+}
+
+.link-regulation {
+  display: block;
+  border-bottom: 1px solid #1c2e3a;
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding: 30px;
+  direction: rtl;
+  font-size: 14pt;
+  font-family: 'Open Sans Hebrew', Ariel;
+}
+
+.link-regulation:hover {
+  text-decoration: underline;
+}

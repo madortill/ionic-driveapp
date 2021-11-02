@@ -1,0 +1,21 @@
+<ion-view hide-nav-bar="true" class="home">
+  <!-- top bar with logo/about icon -->
+  <div class="row">
+    <div class="col col-33">
+      <img class="till-logo" src="img/till-noBack.png">
+    </div>
+    <div class="col col-33 col-offset-33">
+      <button class="ion-information credit" ui-sref="credit"></button>
+    </div>
+  </div>
+  <!-- main logo -->
+  <div class="logo-div">
+    <img src="img/logo.png" class="logo">
+  </div>
+  <div class="item item-input-inset home-search">
+    <label class="item-input-wrapper">
+      <input type="text" placeholder="הקלד את חיפושך כאן" dir="rtl" ng-enter="goToSearch(query)" ng-model="query" class="input-search">
+    </label>
+    <button class="icon ion-search home-button button" ng-click="goToSearch(query)" ng-disabled="!query.length"></button>
+  </div>
+</ion-view>
