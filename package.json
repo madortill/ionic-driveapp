@@ -1,6 +1,6 @@
 {
     "name": "driveapp",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "description": "driveapp: An Ionic project",
     "devDependencies": {
         "@ionic/v1-toolkit": "3.2.3",
@@ -19,11 +19,18 @@
     ],
     "cordovaPlatforms": [],
     "dependencies": {
-        "cordova-android": "^8.1.0"
+        "cordova-android": "^10.0.0",
+        "cordova-browser": "^6.0.0",
+        "connect": "^3.5.0",
+        "serve-static": "^1.11.1"
     },
     "cordova": {
         "platforms": [
-            "android"
+            "android",
+            "browser"
         ]
+    },
+    "scripts": {
+        "start": "node server.js"
     }
 }
